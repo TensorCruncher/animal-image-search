@@ -18,7 +18,7 @@ See demo on [Hugging Face Spaces](https://huggingface.co/spaces/TensorCruncher/A
 
 * Dataset contains some duplicates which need to be removed.
 
-* OpenClip with ViT-B-32 model and laion2b_s34b_b79k weights work alright for basic queries, but fails to understand more abstract queries. For example, “Big wild cat / Big orange cat” returns images of cats and not tigers. Using a larger model might help in this regard by embedding images and text in a richer embedding space.
+* OpenClip with ViT-B-32 model and laion2b_s34b_b79k weights work alright for basic queries, but fails to understand more abstract queries. For example, “Tiger food” returns images of tigers and not deers etc. Using a larger model might help in this regard by embedding images and text in a richer embedding space.
 
 * BLIP model appears to repeat last word in caption sometimes. Needs investigation. BLIP2 might provide better captions at the cost of being slower on CPU.
 
