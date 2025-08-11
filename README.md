@@ -6,6 +6,8 @@ Results are returned with captions.
 
 See demo on [Hugging Face Spaces](https://huggingface.co/spaces/TensorCruncher/AnimalImageSearch).
 
+Original image dataset from [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals/). We use it with slight changes (two images changed).
+
 # Tech
 
 * Image embeddings created using OpenClip.
